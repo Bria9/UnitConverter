@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Unit Converter</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="container" class="flex">
       <div id="head-ctn">
-        <h1>Metric/Imperial Unit Conversion</h1>
+        <p id="title">Metric/Imperial Unit Conversion</p>
         <div class="flex">
           <input type="text" id="input" />
           <button id="btn">Convert</button>
@@ -18,15 +19,15 @@
 
       <div id="main-ctn" class="flex-top">
         <div id="sub-ctn1" class="lightbg">
-          <p>Length (Meter/Feet)</p>
+          <p class="bold-font">Length (Meter/Feet)</p>
           <p id="length"></p>
         </div>
         <div id="sub-ctn2" class="lightbg">
-          <p>Volume (Liters/Gallons)</p>
+          <p class="bold-font">Volume (Liters/Gallons)</p>
           <p id="volume"></p>
         </div>
         <div id="sub-ctn3" class="lightbg">
-          <p>Mass (Kilograms/Pounds)</p>
+          <p class="bold-font">Mass (Kilograms/Pounds)</p>
           <p id="mass"></p>
         </div>
       </div>
